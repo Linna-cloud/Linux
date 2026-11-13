@@ -223,9 +223,17 @@ The schedule continues after a reboot.
 
         <h3>Syntax check and manual execution</h3>
         <p>
-            TODO: Describe the results of running
-            <code>bash -n report.sh</code>
-            and executing the script manually.
+The script was checked using:
+
+<code>bash -n report.sh</code>
+
+No syntax errors were reported.
+
+The script was then executed manually using:
+
+<code>./report.sh</code>
+
+The HTML report was generated successfully and displayed correctly in the web browser.
         </p>
 
         <h3>Disk space status tests</h3>
